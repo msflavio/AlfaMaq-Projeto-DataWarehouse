@@ -1,0 +1,5 @@
+# Projeto 1 - Configuração do Ambiente de Banco de Dados
+
+docker run --name dsadw -p 5431:5432 -e POSTGRES_DB=dsadb -e POSTGRES_USER=dsaadmin -e POSTGRES_PASSWORD=dsa1010 -d postgres:16.1
+
+ 
